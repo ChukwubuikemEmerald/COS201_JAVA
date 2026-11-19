@@ -8,11 +8,13 @@ public class Main {
         // System.out.println(physics.getGravity());
         // physics.setGravity(10);
         // System.out.println(physics.getGravity());
-        
+
         Loop loop = new Loop();
         loop.whileLoop();
         loop.dowhileLoop();
         loop.forLoop();
+
+        Primenumber.checkPrimes();
     }
 
 }
